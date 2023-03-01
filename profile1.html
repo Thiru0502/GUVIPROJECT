@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration Page</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row col-md-6 col-md-offset-3">
+        <div class="panel panel-primary">
+          <div class="panel-heading text-center">
+            <h1>update</h1>
+          </div>
+          <div class="panel-body">
+            <form action="profile.php" method="post">
+                <div class="form-group">
+                    <label for="firstName">ID</label>
+                    <input
+                      type="number"
+                      class="form-control"
+                      id="ID"
+                      name="id"
+                      placeholder="age"
+                    />
+                  </div>
+              <div class="form-group">
+                <label for="firstName">Age</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="age"
+                  name="age"
+                  placeholder="age"
+                />
+              </div>
+              <div class="form-group">
+                <label for="firstName">DOB</label>
+                <input
+                  type="date"
+                  class="form-control"
+                  id="dob"
+                  name="dob"
+                  placeholder="dob"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="password">Number</label>
+                <input
+                  type="text"
+                  max="10"
+                  class="form-control"
+                  id="number"
+                  name="number"
+                />
+              </div>
+             
+              <input type="submit" name="update"class="btn btn-primary" />
+            </form>
+          </div>
+          <div class="panel-footer text-right">
+            <small>&copy; Technical Babaji</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="toast-header">
+    <img src="..." class="rounded mr-2" alt="...">
+    <strong class="mr-auto">Bootstrap</strong>
+    <small>11 mins ago</small>
+    <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="toast-body">
+    Hello, world! This is a toast message.
+  </div>
+</div>
+  </body>
+</html>
